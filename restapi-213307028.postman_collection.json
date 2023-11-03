@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "2c9af613-6d9b-40b2-86bd-0383a19f91cc",
+		"name": "restapi-213307028",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30902460"
+	},
+	"item": [
+		{
+			"name": "localhost/restapi-213307028/api-karyawan.php?function=getKaryawan ",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "id",
+							"value": " 2",
+							"type": "text"
+						},
+						{
+							"key": "nama",
+							"value": " sekar",
+							"type": "text"
+						},
+						{
+							"key": "jenis_kelamin",
+							"value": " perempuan",
+							"type": "text"
+						},
+						{
+							"key": "handphone",
+							"value": " 08123456789",
+							"type": "text"
+						},
+						{
+							"key": "alamat",
+							"value": " ponorogo",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost/restapi-213307028/api-karyawan.php?function=getKaryawan ",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"restapi-213307028",
+						"api-karyawan.php"
+					],
+					"query": [
+						{
+							"key": "function",
+							"value": "getKaryawan "
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
